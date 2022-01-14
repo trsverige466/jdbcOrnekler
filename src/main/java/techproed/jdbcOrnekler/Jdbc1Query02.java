@@ -19,7 +19,7 @@ public class Jdbc1Query02 {
 				Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3306/sys?serverTimezone=UTC", "root", "1234");
 				
 		
-			       Statement st=      con.createStatement();
+			     Statement st=      con.createStatement();
 			       
 			       /*=======================================================================
 //					 ORNEK1: Bolumler tablosundaki tum kayitlari listeleyen bir sorgu yaziniz.
